@@ -11,7 +11,7 @@ export const manifestForPlugin: Partial<VitePWAOptions> = {
     display: "standalone",
     description: "A description for your application",
     lang: " The default language of your application",
-    dir: "auto",
+    dir: "ltr",
     theme_color: "#000000",
     background_color: "#000000",
     orientation: "any",
@@ -34,7 +34,6 @@ export const manifestForPlugin: Partial<VitePWAOptions> = {
         src: "https://www.pwabuilder.com/assets/screenshots/screen1.png",
         sizes: "2880x1800",
         type: "image/png",
-        description: "A screenshot of the home page",
       },
     ],
     related_applications: [
