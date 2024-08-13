@@ -26,6 +26,8 @@ manifest: {
         "name": "PWA",
         "short_name": "pwa",
         "description": "Aplicação teste PWA",
-        "id": "a2c95dd2-a6c0-4d1f-b32c-f21e6694161e"
+        "id": "a2c95dd2-a6c0-4d1f-b32c-f21e6694161e",
+        "scope": "/",
+        "start_url": "https://pwa-tg37.vercel.app/"
     }
 }
