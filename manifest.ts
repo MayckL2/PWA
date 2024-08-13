@@ -2,6 +2,7 @@ import { VitePWAOptions } from "vite-plugin-pwa";
 
 export const manifestForPlugin: Partial<VitePWAOptions> = {
 registerType: "prompt",
+includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.svg"],
 manifest: {
         "theme_color": "#8936FF",
         "background_color": "#2EC6FE",
